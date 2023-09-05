@@ -5,7 +5,6 @@ services:
     image: louislam/uptime-kuma
     container_name: uptimekuma
     restart: unless-stopped
-    network_mode: host
     ports:
       - "3001:3001"
     volumes:
