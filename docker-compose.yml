@@ -15,5 +15,5 @@ volumes:
   uptimekuma:
     driver_opts:
       type: "nfs"
-      o: "addr=22.0.0.18,nolock,soft,rw"
+      o: "addr=22.0.0.2,nolock,soft,rw"
       device: ":/volume2/containers/docker_volumes/uptimekuma"
